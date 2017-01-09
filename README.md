@@ -1,5 +1,5 @@
 ## Method chaining
-It is common practice and encouraged in the Pandas documentation to use 'method chaining.' I use method chaining, for example, to read in my data and to group/sample/slice before plotting. The advantages of method chaining include:
+It is common practice and encouraged in the Pandas documentation to use 'method chaining' or function 'pipes.' I use method chaining, for example, to read in my data and to group/sample/slice before plotting. The advantages of method chaining include:
 - It saves you from having to define a lot of intermediate variables.
 - You can clean your data directly after you read it in, combining all your pre-processing steps into a single command.
 - You can plot your data directly after grouping/sampling/slicing/etc.
@@ -12,8 +12,8 @@ Or, in Tom Augspurger's words:
 Source and fantastic walkthrough: http://tomaugspurger.github.io/method-chaining.html (read all 7 parts)
 
 Other tips:
-- Use pandas build-in methods when possible, like `resample` below. Otherwise, define your own function and use `pipe`.
-- As always, prefer vectorized operations over iterative operations (see `correct_flow_rate_fast` below)
+- Use pandas build-in methods when possible, like `resample()` in the tutorial. Otherwise, define your own function and use `pipe()`.
+- As always, prefer vectorized operations over iterative operations (see `correct_flow_rate_fast` in the tutorial)
 - Familiarize yourself with the difference between `.loc`, `.iloc` and pandas assignment in general ([link](http://tomaugspurger.github.io/modern-1.html))
 
 Resources:
