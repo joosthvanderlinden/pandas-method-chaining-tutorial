@@ -13,7 +13,7 @@ Source and fantastic walkthrough: http://tomaugspurger.github.io/method-chaining
 
 Other tips:
 - Use pandas build-in methods when possible, like `resample()` in the tutorial. Otherwise, define your own function and use `pipe()`.
-- As always, prefer vectorized operations over iterative operations (see `correct_flow_rate_fast` in the tutorial)
+- As always, prefer vectorized operations over iterative operations (see `correct_flow_rate_fast()` in the tutorial)
 - Familiarize yourself with the difference between `.loc`, `.iloc` and pandas assignment in general ([link](http://tomaugspurger.github.io/modern-1.html))
 
 Resources:
