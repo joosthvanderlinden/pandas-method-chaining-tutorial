@@ -20,3 +20,5 @@ Resources:
 - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
 - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.pipe.html
 - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.resample.html
+
+To view the tutorial notebook, click [here](https://github.com/joosthvanderlinden/pandas-method-chaining-tutorial/blob/master/group%20tutorial%20on%20method%20chaining.ipynb).
