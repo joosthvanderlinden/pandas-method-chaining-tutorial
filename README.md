@@ -1,4 +1,6 @@
 ## Method chaining
+To view the tutorial notebook, click [here](https://nbviewer.jupyter.org/github/joosthvanderlinden/pandas-method-chaining-tutorial/blob/master/group%20tutorial%20on%20method%20chaining.ipynb).
+
 It is common practice and encouraged in the Pandas documentation to use 'method chaining' or function 'pipes.' I use method chaining, for example, to read in my data and to group/sample/slice before plotting. The advantages of method chaining include:
 - It saves you from having to define a lot of intermediate variables.
 - You can clean your data directly after you read it in, combining all your pre-processing steps into a single command.
@@ -20,5 +22,3 @@ Resources:
 - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
 - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.pipe.html
 - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.resample.html
-
-To view the tutorial notebook, click [here](https://nbviewer.jupyter.org/github/joosthvanderlinden/pandas-method-chaining-tutorial/blob/master/group%20tutorial%20on%20method%20chaining.ipynb).
